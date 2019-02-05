@@ -213,40 +213,34 @@ class App extends Component {
           )}
         </div>
         {donutData && (
-          <div className="l-bar">
-            <div>
-              <DonutChart
-                data={donutData}
-                size={[0, 250]}
-                margin={{ top: 0, right: 0, bottom: 10, left: 0 }}
-                title="Market Cap"
-                accessorFn={d => d.data['MKTCAP']}
-                keyFn={d => d.data.coin}
-                color={colorScale}
-              />
-            </div>
-            <div>
-              <DonutChart
-                data={donutData}
-                size={[0, 250]}
-                margin={{ top: 0, right: 0, bottom: 10, left: 0 }}
-                title="Total Volume (24h)"
-                accessorFn={d => d.data['TOTALVOLUME24HTO']}
-                keyFn={d => d.data.coin}
-                color={colorScale}
-              />
-            </div>
-            <div>
-              <DonutChart
-                data={donutData}
-                size={[0, 250]}
-                margin={{ top: 0, right: 0, bottom: 10, left: 0 }}
-                title="Volume (hour)"
-                accessorFn={d => d.data['VOLUMEHOURTO']}
-                keyFn={d => d.data.coin}
-                color={colorScale}
-              />
-            </div>
+          <div className="l-bar m-fx-cl">
+            <DonutChart
+              data={donutData}
+              size={[0, 250]}
+              margin={{ top: 40, right: 0, bottom: 0, left: 0 }}
+              title="Market Cap"
+              accessorFn={d => d.data['MKTCAP']}
+              keyFn={d => d.data.coin}
+              color={colorScale}
+            />
+            <DonutChart
+              data={donutData}
+              size={[0, 250]}
+              margin={{ top: 40, right: 0, bottom: 0, left: 0 }}
+              title="Total Volume (24h)"
+              accessorFn={d => d.data['TOTALVOLUME24HTO']}
+              keyFn={d => d.data.coin}
+              color={colorScale}
+            />
+            <DonutChart
+              data={donutData}
+              size={[0, 250]}
+              margin={{ top: 40, right: 0, bottom: 0, left: 0 }}
+              title="Volume (hour)"
+              accessorFn={d => d.data['VOLUMEHOURTO']}
+              keyFn={d => d.data.coin}
+              color={colorScale}
+            />
           </div>
         )}
         <div className="l-footer m-primary m-fx-c-c m-pd-xt-v">

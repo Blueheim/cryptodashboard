@@ -72,7 +72,7 @@ class DonutChart extends Component {
     const height = svgHeight - this.props.margin.top - this.props.margin.bottom;
     const radius = Math.min(width, height) / 2.2;
 
-    pieGroupSelection.attr('transform', 'translate(' + width / 2 + ',' + width / 2 + ')');
+    pieGroupSelection.attr('transform', 'translate(' + svgWidth / 2 + ',' + svgHeight / 2 + ')');
 
     const pieLayout = pie()
       .padAngle(0.03)
