@@ -1,0 +1,78 @@
+{
+  "status": {
+    "timestamp": "2019-01-26T21:30:05.965Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 4,
+    "credit_count": 1
+  },
+  "data": {
+    "BTC": {
+      "urls": {
+        "website": ["https://bitcoin.org/"],
+        "twitter": [],
+        "reddit": ["https://reddit.com/r/bitcoin"],
+        "message_board": ["https://bitcointalk.org"],
+        "announcement": [],
+        "chat": [],
+        "explorer": [
+          "https://blockchain.info/",
+          "https://live.blockcypher.com/btc/",
+          "https://blockchair.com/bitcoin/blocks"
+        ],
+        "source_code": ["https://github.com/bitcoin/"]
+      },
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1.png",
+      "id": 1,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "slug": "bitcoin",
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "tags": ["mineable"],
+      "platform": null,
+      "category": "coin"
+    },
+    "ETH": {
+      "urls": {
+        "website": ["https://www.ethereum.org/"],
+        "twitter": ["https://twitter.com/ethereum"],
+        "reddit": ["https://reddit.com/r/ethereum"],
+        "message_board": ["https://forum.ethereum.org/"],
+        "announcement": ["https://bitcointalk.org/index.php?topic=428589.0"],
+        "chat": ["https://gitter.im/orgs/ethereum/rooms"],
+        "explorer": ["https://etherscan.io/", "https://ethplorer.io/", "https://etherchain.org/"],
+        "source_code": ["https://github.com/ethereum"]
+      },
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+      "id": 1027,
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "slug": "ethereum",
+      "date_added": "2015-08-07T00:00:00.000Z",
+      "tags": ["mineable"],
+      "platform": null,
+      "category": "coin"
+    },
+    "XRP": {
+      "urls": {
+        "website": ["https://ripple.com/xrp/"],
+        "twitter": ["https://twitter.com/Ripple"],
+        "reddit": ["https://reddit.com/r/ripple"],
+        "message_board": ["http://www.xrpchat.com/"],
+        "announcement": [],
+        "chat": ["https://t.me/Ripple", "https://discord.gg/N4x7kPb"],
+        "explorer": ["https://xrpcharts.ripple.com/#/graph/", "https://bithomp.com/explorer/"],
+        "source_code": ["https://github.com/ripple"]
+      },
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
+      "id": 52,
+      "name": "XRP",
+      "symbol": "XRP",
+      "slug": "ripple",
+      "date_added": "2013-08-04T00:00:00.000Z",
+      "tags": null,
+      "platform": null,
+      "category": "coin"
+    }
+  }
+}
